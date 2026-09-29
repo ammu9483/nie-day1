@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vote Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="
+    background-image: url('file:///C:/Users/mades/OneDrive/Desktop/Your%20Vote%20Builds%20a%20Better%20Tomorrow.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+">
+    <div class="vote-box">
+
+        <h2 style="color: #93be25;">🗳️ Vote </h2>
+
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <br><br>
+
+        <input type="number" id="age" placeholder="Enter your age">
+
+        <br><br>
+
+        <!-- National / State -->
+        <select id="level">
+            <option value="">Select Voting Level</option>
+            <option value="National">National</option>
+            <option value="State">State</option>
+        </select>
+
+        <br><br>
+
+        <button onclick="Vote()">check Eligibility</button>
+
+       <p id="Answer" style="color: red; font-size: 35px;">
+    Here you will get Answer
+</p>
+<p style="color: black;">
+     Note:Voting is important because it gives citizens a voice in choosing their representatives.
+    It strengthens democracy by allowing people to participate in government.
+    Voting helps citizens choose responsible leaders who represent public interests.
+    It also influences important decisions and policies that affect society.
+    Every vote matters because collective voting can help shape the future of a country.
+</p>
+
+        <a href="cal.html">Go to Love Calculator</a>
+
+    </div>
+
+    <script src="vote.js"></script>
+
+</body>
+</html>
